@@ -1,4 +1,7 @@
 steamcrawler
 ============
 
-Prowling Steam's data using Node.js and MongoDB
+Prowling Steam's public data using Node.js and MongoDB
+
+
+Note: This project will never be used to gather private information about Steam users
