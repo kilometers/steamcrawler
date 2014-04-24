@@ -53,7 +53,7 @@ requestLoop();
 function requestLoop(){
   // Generate a random UID.
   // Due to Javascript's integer limitations, only part of the full UID is
-  // used. The rest is held in the variable uidSuffix, and is only needed
+  // used. The rest is held in the variable uidPrefix, and is only needed
   // for appearances.
   var steamUID = 97960265729 + random.integer(0, totalPages);
   var url = "http://steamcommunity.com/profiles/"+uidPrefix.toString()+steamUID.toString()+"/games?tab=all"
