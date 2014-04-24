@@ -1,0 +1,15 @@
+{
+  "name": "steamcrawler",
+  "version": "0.0.1",
+  "author": "Miles <baird.miles@gmail.com>",
+  "description": "a basic crawler for exploring Steam's data",
+  "dependencies" : {
+    "mongoose"   :  "*",
+    "random-js"   :  "*",
+    "async"   :  "*"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
